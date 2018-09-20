@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/dialog_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/jogjaistimewa" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/detail_alamat"
+            android:layout_marginTop="5dp"
+            android:textStyle="italic"
+            android:textSize="12sp"
+            android:layout_below="@id/dialog_imageview"/>
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/dialog_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_alamat"
+            android:layout_marginTop="16dp"
+            android:textSize="14sp"
+            android:textColor="@color/hitam" />
+    </RelativeLayout>
+</ScrollView>

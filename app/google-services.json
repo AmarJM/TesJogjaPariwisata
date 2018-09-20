@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "105547465187",
+    "firebase_url": "https://jogajapariwisata.firebaseio.com",
+    "project_id": "jogajapariwisata",
+    "storage_bucket": "jogajapariwisata.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105547465187:android:6f8eecaa49ef8110",
+        "android_client_info": {
+          "package_name": "com.pariwisata.jogja.pariwisatayogya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105547465187-107ve3a4q9fga6cvafupuckt10t6hcks.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pariwisata.jogja.pariwisatayogya",
+            "certificate_hash": "bccf26cdf63ce6e32329134993f57e2fc84da5bb"
+          }
+        },
+        {
+          "client_id": "105547465187-d5p6qb88ob0j65o7jjq3f93eh6hd5l9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqlFwUJzEyCVJPfHbvLVkRmo4H5cmG1A0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105547465187-d5p6qb88ob0j65o7jjq3f93eh6hd5l9n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
